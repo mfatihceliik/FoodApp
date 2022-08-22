@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2515" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/custom_card.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/custom_card_view.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/custom_card_view_border.xml" value="0.25" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/ic_add.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/ic_add_24.xml" value="0.161" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/ic_delete.xml" value="0.2515" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/ic_edit.xml" value="0.2515" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/ic_home.xml" value="0.2515" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2515" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/ic_person.xml" value="0.2515" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/ic_remove_24.xml" value="0.2335" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/ic_shopping_basket.xml" value="0.3295" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/ic_success.xml" value="0.2515" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/white_circle.xml" value="0.266" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout-v23/item_basket.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout-v23/item_food.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/bottom_sheet_add_address.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/custom_card_view.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/dropdown_item.xml" value="0.9" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/fragment_address.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/fragment_asd.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/fragment_auth.xml" value="0.32592592592592595" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/fragment_basket.xml" value="0.3490740740740741" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/fragment_food.xml" value="0.3569230769230769" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/fragment_home.xml" value="0.34444444444444444" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/fragment_login.xml" value="0.3212962962962963" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/fragment_null.xml" value="0.33" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/fragment_profile.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/fragment_splash.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/item_address.xml" value="0.33611111111111114" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/item_all_restaurants.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/item_basket.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/item_basket_foods.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/item_basket_restaurants.xml" value="0.3490740740740741" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/item_best_restaurants.xml" value="0.3569230769230769" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/item_food.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/item_food_detail_bottomsheet.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/login_fragment.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/splash_fragment.xml" value="0.32592592592592595" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/menu/bottom_navigation.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AndroidStudioProjects/FoodOrder/app/src/main/res/menu/custom_card_view.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_expandable_list_item_1.xml" value="0.3625" />
+        <entry key="..\:/Users/mfatihceliik/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

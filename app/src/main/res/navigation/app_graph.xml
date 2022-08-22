@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        tools:layout="@layout/fragment_login"
+        android:id="@+id/loginFragment"
+        android:name="com.muhammedfatihcelik.foodorder.ui.login.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_splash"
+        android:id="@+id/splashFragment"
+        android:name="com.muhammedfatihcelik.foodorder.ui.splash.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_home"
+        android:id="@+id/homeFragment"
+        android:name="com.muhammedfatihcelik.foodorder.ui.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_foodFragment"
+            app:destination="@id/foodFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_homeFragment_to_basketFragment"
+            app:destination="@id/basketFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_food"
+        android:id="@+id/foodFragment"
+        android:name="com.muhammedfatihcelik.foodorder.ui.food.FoodFragment"
+        android:label="FoodFragment" >
+        <argument
+            android:name="restaurant"
+            app:argType="com.muhammedfatihcelik.foodorder.data.entity.restaurants.Restaurant" />
+        <action
+            android:id="@+id/action_foodFragment_to_foodDetailFragment"
+            app:destination="@id/foodDetailFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_basket"
+        android:id="@+id/basketFragment"
+        android:name="com.muhammedfatihcelik.foodorder.ui.basket.BasketFragment"
+        android:label="BasketFragment" />
+    <dialog
+        tools:layout="@layout/item_food_detail_bottomsheet"
+        android:id="@+id/foodDetailFragment"
+        android:name="com.muhammedfatihcelik.foodorder.ui.food.foodDetail.FoodDetailBottomSheet"
+        android:label="FoodDetailFragment" >
+        <argument
+            android:name="food"
+            app:argType="com.muhammedfatihcelik.foodorder.data.entity.food.Food" />
+    </dialog>
+    <fragment
+        tools:layout="@layout/fragment_profile"
+        android:id="@+id/profileFragment"
+        android:name="com.muhammedfatihcelik.foodorder.ui.profile.ProfileFragment"
+        android:label="ProfileFragment" >
+        <action
+            android:id="@+id/action_profileFragment_to_addressFragment"
+            app:destination="@id/addressFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_address"
+        android:id="@+id/addressFragment"
+        android:name="com.muhammedfatihcelik.foodorder.ui.address.AddressFragment"
+        android:label="AddressFragment" >
+        <action
+            android:id="@+id/action_addressFragment_to_addressAddBottomSheet"
+            app:destination="@id/addressAddBottomSheet" />
+    </fragment>
+    <dialog
+        tools:layout="@layout/bottom_sheet_add_address"
+        android:id="@+id/addressAddBottomSheet"
+        android:name="com.muhammedfatihcelik.foodorder.ui.address.addressDetail.AddressDetailBottomSheet"
+        android:label="AddressAddBottomSheet" >
+        <argument
+            android:name="address"
+            app:argType="com.muhammedfatihcelik.foodorder.data.entity.address.Address"
+            app:nullable="true" />
+        <argument
+            android:name="updateButton"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </dialog>
+</navigation>
